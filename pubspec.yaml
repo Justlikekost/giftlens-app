@@ -1,0 +1,14 @@
+name: giftlens
+description: AI Gift App
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
