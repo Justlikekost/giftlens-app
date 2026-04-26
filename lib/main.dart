@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
 
     var request = http.MultipartRequest(
       'POST',
-      Uri.parse('https://YOUR-BACKEND-URL/analyze'),
+      Uri.parse('https://giftlens-backend.onrender.com'),
     );
 
     request.files.add(await http.MultipartFile.fromPath('image', image!.path));
